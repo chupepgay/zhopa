@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: white;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1 {
+    color: blue;
+}
+
+/* Задание 1 */
+
+.card {
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    border: 3px solid black;
+    background-color: lightblue;
+    box-sizing: border-box;
+}
+
+/* Задание 2 */
+
+.example {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+/* Задание 3 */
+
+.first {
+    margin-bottom: 40px;
+    background-color: lightyellow;
+}
+
+.second {
+    margin-top: 30px;
+    background-color: lightpink;
+}
+
+/* Решение Margin Collapse */
+
+.fix {
+    display: flow-root;
+    background-color: lightgray;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.fix p {
+    margin: 30px;
+}
